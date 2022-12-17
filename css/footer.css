@@ -1,0 +1,34 @@
+footer {
+    width: 100%;
+    height: 540px;
+    background: #101010;
+}
+footer>div {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 1596px;
+    color: #fff;
+}
+footer>div>dl>dt {
+    margin-bottom: 65px;
+    font-size: 37px;
+    font-weight: bold;
+}
+footer>div>dl>dd {
+    font-size: 26px;
+    line-height: 41px;
+}
+footer>div>address {
+    font-size: 26px;
+    line-height: 41px;
+}
+footer>div>p {
+    font-size: 26px;
+    line-height: 41px;
+}
+footer>div>p.float {
+    float: left;
+}
+footer>div>p:last-child {
+    float: right;
+}

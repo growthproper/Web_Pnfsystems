@@ -1,0 +1,42 @@
+#main {
+    width: 100%;
+}
+#main>div {
+    float: left;
+    width: 943px;
+    height: 1065px;
+}
+#main>div:first-of-type {
+    background: url('../img/map.png') no-repeat 0 0 / 960px 1065px;
+}
+
+#main>div:last-of-type {
+	width: 960px;
+    background: #09124f;
+}
+#main>div>h2 {
+    margin-left: 30px;
+    margin-top: 220px;
+    margin-bottom: 55px;
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+}
+#main>div>h2.little {
+	font-size: 45px;
+}
+#main>div>p {
+    margin-left: 30px;
+    font-size: 26px;    
+    color: #fff;
+    line-height: 34px;
+}
+#main>div>p.first {
+    margin-bottom: 120px;
+}
+#main>div:last-of-type>hr {
+    width: 900px;
+}
+footer {
+    clear: both;
+}

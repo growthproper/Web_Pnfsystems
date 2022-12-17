@@ -1,0 +1,29 @@
+footer>div {
+    margin: 0 auto;
+    padding-top: 150px;
+    width: 1000px;
+    color: #fff;
+}
+footer>div>dl>dt {
+    margin-bottom: 42px;
+    font-size: 27px;
+    font-weight: bold;
+}
+footer>div>dl>dd {
+    font-size: 21px;
+    line-height: 33px;
+}
+footer>div>address {
+    font-size: 21px;
+    line-height: 33px;
+}
+footer>div>p {
+    font-size: 21px;
+    line-height: 33px;
+}
+footer>div>p.float {
+    float: left;
+}
+footer>div>p:last-child {
+    float: right;
+}

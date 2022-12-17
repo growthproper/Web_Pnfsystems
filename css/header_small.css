@@ -1,0 +1,54 @@
+header {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.container {
+    position: relative;
+}
+.containerInner {
+    position:absolute;
+    z-index: 100;
+    width: 100%;
+}
+.headerInner {
+    margin: 0 auto;
+    /* width: 100%; */
+}
+.headerInner>.containerInner>h1 {
+    position: absolute;
+    left: 6rem;
+    top: 3.1rem;
+    z-index: 100;
+    width: 10rem;
+    height: 3.5rem;
+}
+.headerInner>.containerInner>h1>img {
+    width: 100%;
+}
+
+
+
+.bxslider {
+    position: relative;
+}
+.bxslider .mainbanner_text {
+    position: absolute;
+    top: 210px;
+    left: 161px;
+    width: 560px;
+    height: 160px;
+    color: #fff;
+}
+.bxslider .mainbanner_text>h2 {
+    font-size: 80px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+    letter-spacing: -7px;
+}
+
+.bxslider .mainbanner_text>p {
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: -3px;
+}

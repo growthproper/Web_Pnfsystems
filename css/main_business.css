@@ -1,0 +1,281 @@
+#main {
+    position: relative;    
+    width: 100%;
+   height: 5382px; 
+    
+}
+#mainInner {
+    margin: 0 auto;
+    width: 1600px;
+    /* height: 5246px; */
+    overflow: hidden; 
+    background: url(../img/interactive.png) no-repeat 0 274px;
+}
+#mainInner>h2 {
+    margin-top: 119px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+#mainInner>.content_center {
+    margin: 0 auto;
+    margin-top: 1293px;
+    width: 1113px;
+    /* height: 3798px;  */
+    
+}
+
+/* 주요사업성과 제목 */
+#mainInner>.content_center>h3 {
+    font-size: 44px;
+    text-align: center;
+}
+#mainInner>.content_center>h3>span {
+    display: block;
+    margin-bottom: 44px;
+    color: #0d1970;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* consulting01 */
+#mainInner>.content_center>ul.consulting01 {
+    width: 100%;
+    height:657px;
+}
+
+/* 용산역사 */
+#mainInner>.content_center>ul.consulting01>li:first-child {
+    width: 555px;
+    height:657px;
+    text-align: center;
+    background: url(../img/consulting_left.png) no-repeat 0 0;
+    float: left;
+}
+#mainInner>.content_center>ul.consulting01>li:first-child>h4 {
+    padding-top:432px;
+    margin-bottom: 21px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainInner>.content_center>ul.consulting01>li:first-child>p {
+    font-size: 30px;
+}
+
+/* 인천국제공항 */
+#mainInner>.content_center>ul.consulting01>li:last-child {
+    width: 555px;
+    height:657px;
+    text-align: center;
+    background: url(../img/consulting_right.png) no-repeat 0 0;
+    float: left;
+}
+#mainInner>.content_center>ul.consulting01>li:last-child>h4 {
+    padding-top:432px;
+    margin-bottom: 21px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainInner>.content_center>ul.consulting01>li:last-child>p {
+    font-size: 30px;
+}
+
+
+/* consulting02 */
+#mainInner>.content_center>ul.consulting02 {
+    position: relative;
+    width: 100%;
+    height:657px;
+}
+#mainInner>.content_center>ul.consulting02::before {
+    position: absolute;
+    content: "";
+    left: 553px;
+    top: 394px;
+    width:3px;
+    height: 338px;
+    background: #000;
+    z-index: 100;
+}
+#mainInner>.content_center>ul.consulting02::after {
+    position: absolute;
+    content: "";
+    left: 529px;
+    bottom: -124px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+    z-index: 100;
+}
+/* 부천 버스 터미널 */
+#mainInner>.content_center>ul.consulting02>li:first-child {
+    width: 555px;
+    height:657px;
+    text-align: center;
+    background: url(../img/consulting_bucheon.png) no-repeat 0 0;
+    float: left;
+}
+#mainInner>.content_center>ul.consulting02>li:first-child>h4 {
+    padding-top:432px;
+    margin-bottom: 21px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainInner>.content_center>ul.consulting02>li:first-child>p {
+    font-size: 30px;
+    letter-spacing: -3px;
+}
+
+/* 창동역 */
+#mainInner>.content_center>ul.consulting02>li:last-child {
+    width: 555px;
+    height:657px;
+    text-align: center;
+    background: url(../img/consulting_changdong.png) no-repeat 0 0;
+    float: left;
+}
+#mainInner>.content_center>ul.consulting02>li:last-child>h4 {
+    padding-top:432px;
+    margin-bottom: 21px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainInner>.content_center>ul.consulting02>li:last-child>p {
+    font-size: 30px;
+}
+
+/* PLANNING */
+/* 주요사업성과 제목 */
+#mainInner>.content_center>h3.planning {
+    margin-top: 140px;
+}
+#mainInner>.content_center>ul.planning01 {
+    width: 100%;
+    height:657px;
+}
+/* 남산 축제 */
+#mainInner>.content_center>ul.planning01>li:first-child {
+    width: 555px;
+    height:657px;
+    text-align: center;
+    background: url(../img/planning_namsan.png) no-repeat 0 0;
+    float: left;
+}
+#mainInner>.content_center>ul.planning01>li:first-child>h4 {
+    padding-top:432px;
+    margin-bottom: 21px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainInner>.content_center>ul.planning01>li:first-child>p {
+    font-size: 30px;
+    letter-spacing: -3px;
+}
+
+/* 푸드서밋 */
+#mainInner>.content_center>ul.planning01>li:last-child {
+    width: 555px;
+    height:657px;
+    text-align: center;
+    background: url(../img/planning_pyeongchang.png) no-repeat 0 0;
+    float: left;
+}
+#mainInner>.content_center>ul.planning01>li:last-child>h4 {
+    padding-top:432px;
+    margin-bottom: 21px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainInner>.content_center>ul.planning01>li:last-child>p {
+    font-size: 30px;
+    letter-spacing: -4px;
+}
+
+/* 외식 문화 */
+#mainInner>.content_center>ul.planning02 {
+    width: 100%;
+    height:657px;
+}
+#mainInner>.content_center>ul.planning02>li:first-child {
+    width: 555px;
+    height:657px;
+    text-align: center;
+    background: url(../img/planning_food.png) no-repeat 0 0;
+    float: left;
+}
+#mainInner>.content_center>ul.planning02>li:first-child>h4 {
+    padding-top:432px;
+    margin-bottom: 21px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainInner>.content_center>ul.planning02>li:first-child>p {
+    font-size: 30px;
+    letter-spacing: -3px;
+}
+
+/* 공주알밤 */
+#mainInner>.content_center>ul.planning02>li:last-child {
+    width: 555px;
+    height:657px;
+    text-align: center;
+    background: url(../img/planning_desert.png) no-repeat 0 0;
+    float: left;
+}
+#mainInner>.content_center>ul.planning02>li:last-child>h4 {
+    padding-top:432px;
+    margin-bottom: 21px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#mainInner>.content_center>ul.planning02>li:last-child>p {
+    font-size: 30px;
+    letter-spacing: -4px;
+}
+
+/* SERVICE */
+#main>.service {
+    width: 100%;
+    height: 902px;
+    background: url("../img/service_bg.jpg") no-repeat 0 bottom;
+    color: #fff;
+}
+/* 제목 */
+#main>.service>#sv_center {
+    margin: 0 auto;
+    width: 1600px;
+}
+#main>.service>#sv_center>h3 {
+    position: relative;
+    margin-bottom: 135px;
+    padding-top: 209px;
+    font-size: 44px;
+    text-align: center;
+    font-weight: bold;
+}
+#main>.service>#sv_center>h3::before {
+    position:absolute;
+    content: "";
+    left: 812px;
+    top: 0;
+    width: 3px;
+    height:165px;
+    background: #fff;
+} 
+#main>.service>#sv_center>h3::after {
+    position:absolute;
+    content: "";
+    left: 788px;
+    top: 145px;
+    width: 50px;
+    height:50px;
+    background: #fff;
+    border-radius: 50%;
+} 
+#main>.service>#sv_center>p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+}
+

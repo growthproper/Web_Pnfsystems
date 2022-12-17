@@ -1,0 +1,102 @@
+@font-face {
+    font-family:"notoSans";
+    src: url(../fonts/NotoSansKR-Regular-Alphabetic.eot); /* ie용 */
+   	src: local('※'), url(../fonts/NotoSansKR-Regular-Alphabetic.ttf) format('truetype'), url(../fonts/notoSans/NotoSansKR-Regular-Alphabetic.woff)
+  }
+
+ header {
+    width: 100%;
+    height: 1080px;
+    /* overflow: hidden; */
+    /* position: relative; */
+}
+.container {
+    position: relative;
+} 
+.containerInner {
+    position:absolute;
+    z-index: 100;
+    width: 100%;
+}
+.headerInner {
+    margin: 0 auto;
+    /* width: 100%; */
+}
+.headerInner>.containerInner>h1 {
+    position: absolute;
+    left: 8.5rem;
+    top: 3.1rem;
+    z-index: 100;
+    width: 10rem;
+    height: 3.5rem;
+}
+.headerInner>.containerInner>h1>a>img {
+    width: 100%;
+}
+.headerInner>.containerInner>nav {
+    display: flex;
+    justify-content: flex-end;
+    clear: both;
+    padding-top: 3rem;
+    height: 2rem;
+}
+.headerInner>.containerInner>nav>ul {
+    flex: 0 0 50%;
+    display: flex;
+    height: 2rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+
+
+
+.headerInner>.containerInner>nav li {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    height: 2rem;
+    
+}
+/* .headerInner>.containerInner>nav li.width_small {
+     width: 100px; 
+} */
+.headerInner>.containerInner>nav li>a {
+    font-family: "notoSans", sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+.headerInner>.containerInner>nav li>a:hover {
+    color: #f0d597;
+    transition-duration: .5s;
+}
+
+header>.banner {
+    /* padding-left: 163px; */
+    width: 100%;
+    height: 1080px;
+    background: url(../img/business_bg.png) no-repeat right 0 / 960px 1080px;
+}
+header>.banner>div {
+    margin-left: 163px;
+    width: 760px;
+}
+header>.banner>div>h2 {
+    padding-top: 362px;
+    margin-bottom: 48px;
+    font-size: 24px;
+    font-weight: bold;
+}
+header>.banner>div>h3 {
+    font-size: 76px;
+    font-weight: bold;
+}
+header>.banner>div>p {
+    margin-top: 105px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+}

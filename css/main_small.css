@@ -1,0 +1,115 @@
+.video {
+    position: relative;
+    padding-top: 56.25%;
+}
+.video>.content {
+    position:absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    /* width: 300%; */
+}
+video {
+    width: 100%;
+}
+.video>.video_text {
+    position: absolute;
+    width: 1000px;
+    left: 97px;
+    top: 234px;
+    font-size: 35px;
+    z-index: 100;
+    color: #fff;
+    font-family: 'notoSans';
+    font-weight: bold;
+    text-align: center;
+}
+
+.video>.video_text>p {
+    line-height: 45px;
+}
+
+.video>.video_text>p:last-child {
+    margin-top: 75px;
+}
+
+
+/* PR */
+.pr {
+    padding-top: 30px;
+    width: 100%;
+    height: 1020px;
+}
+.center {
+    margin: 0 auto;
+    width: 1000px;
+    background: url(../img/pr_bg.png) no-repeat 507px 270px / 492px 440px
+}
+
+.pr>.center>h2 {
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+.pr>.center>h2:after {
+    content: "";
+    position: absolute;
+    right: 450px;
+    bottom: -13px;
+    width: 25px;
+    height: 14px;
+    border-right: 10px solid #0d1f74;
+    border-bottom: 10px solid #0d1f74;
+}
+.pr>.center>p {
+    font-size: 18px;
+    color: #888;
+    text-align: center;
+    font-weight: bold;
+}
+.center>.text_left {
+    margin-left: 28px;
+    width: 462px;
+    height: 638px;
+}
+.pr>.center>.text_left>h3 {
+    margin-top: 153px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.center>.text_left>.p_text {
+    margin-top: 22px;
+    font-size: 21px;
+    line-height: 32px;
+}
+.center>.text_left>.button {
+    position: relative;
+    margin-top: 96px;
+    width: 455px;
+    height: 80px;
+    background: #0d1f74;
+    line-height: 76px;
+}
+    
+
+.center>.text_left>.button>a {
+    display: block;
+    width: 100%;
+    margin-left: 32px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.center>.text_left>.button:after {
+    content: "";
+    position: absolute;
+    right: 24px;
+    top: 26px;
+    width: 28px;
+    height: 40px;
+    background: url(../img/right_arrow.png) no-repeat 0 0 / 19px 26px;
+}
